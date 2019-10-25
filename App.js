@@ -11,14 +11,6 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      coord:[{co:{
-        latitude:37.78825,
-        longitude: -122.4324
-      }},{co:{
-        latitude:37.788256,
-        longitude: -122.4330
-      }}],
-    
       markers:[
         {coord:{
           latitude:37.78825,
